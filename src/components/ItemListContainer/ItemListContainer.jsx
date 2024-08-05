@@ -14,12 +14,12 @@ setProducts(products)
     .catch (error => {
         console.error (error)
     })
-})
+}, [])
 
 
     return (
-<div>
-    <h1>{greeting}</h1>
+<div style={{margin:"2rem"}}>
+    <h1 style={{color:"blue"}}>{greeting}</h1>
     <ItemList products={products}/>
 </div>
     )

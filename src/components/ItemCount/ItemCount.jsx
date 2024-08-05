@@ -6,7 +6,7 @@ const ItemCount = ({initial = 1, stock, onAdd}) => {
 
     const increment = () => {
         if (count < stock) {
-            setCount (prec => prev +1)
+            setCount (prev => prev +1)
         }
     }
 
@@ -17,11 +17,12 @@ const ItemCount = ({initial = 1, stock, onAdd}) => {
     }
 return(
 
-<div>
+<div >
+
     <h3>{count}</h3>
-    <button onClick={decrement}>-</button>
-    <button onClick={() => onAdd (count)}>Agregar al carrito</button>
-    <button onClick={increment}>+</button>
+    <button className="btn btn-outline-primary" style={{margin: 5}} onClick={decrement}>-</button>
+    <button className="btn btn-outline-primary" onClick={() => onAdd (count)}>Agregar al carrito</button>
+    <button className="btn btn-outline-primary"  style={{margin: 5}} onClick={increment}>+</button>
 </div>
 
 

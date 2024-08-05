@@ -1,11 +1,11 @@
 
-import logo from '../../assets/react.svg'
+import logo from '../../assets/carrito4.png'
 const CartWidget = () => {
     return (
 
-        <div>
+        <div >
 
-            <img src={logo} />
+            <img src={logo} style={{width: 80}} />
             0
 
         </div>

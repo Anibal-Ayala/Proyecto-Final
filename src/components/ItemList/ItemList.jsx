@@ -4,7 +4,7 @@ const ItemList = ({ products }) => {
 
 
     return (
-        <div>
+        <div style={{display:"flex", flexWrap:"wrap", flexDirection:"row"}}>
             
             {  products.map (prod => {
 

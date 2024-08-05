@@ -3,15 +3,17 @@ import CartWidget from "../CartWidget/CartWidget"
 const NavBar = () => {
 
     return (
-        <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <h1>Ecommerce</h1>
-            <section>
+       
+        <nav  style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: "#e3f2fd" }}>
+            
+            <h1 style={{color:"blue", margin: "2rem"}}>Ecommerce</h1>
+            <section  >
+       
+                <button className="btn btn-outline-primary" style={{margin: 5}}>Celulares</button>
+                <button className="btn btn-outline-primary" style={{margin: 5}}>Tablets</button>
+                <button className="btn btn-outline-primary" style={{margin: 5}}>Notebooks</button>
 
-                <button>Celulares</button>
-                <button>Tablets</button>
-                <button>Notebooks</button>
-
-               
+            
             </section>
  <CartWidget/>
         </nav>
