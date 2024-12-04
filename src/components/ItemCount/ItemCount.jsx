@@ -19,7 +19,7 @@ return(
 
 <div >
 
-    <h3>{count}</h3>
+    <h4 style={{textAlign:"center"}}>{count}</h4>
     <button className="btn btn-outline-primary" style={{margin: 5}} onClick={decrement}>-</button>
     <button className="btn btn-outline-primary" onClick={() => onAdd (count)}>Agregar al carrito</button>
     <button className="btn btn-outline-primary"  style={{margin: 5}} onClick={increment}>+</button>
