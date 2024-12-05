@@ -27,7 +27,7 @@ const ItemDetail = ({ id, name, img, category, price, description, stock }) => {
           <h5 class="card-title">{name}</h5>
           <p class="card-text">Categoria: {category}</p>
           <h4>Precio: ${price}</h4>
-          <p>{description}</p>
+          <p style={{textAlign: "center"}}>{description}</p>
 
 
         </div>

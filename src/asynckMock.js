@@ -15,7 +15,7 @@ const products =[
        category: 'celular',
         img: 'https://www.celulares.com/fotos/sony-ericsson-t290-1802-g-alt.jpg', 
        stock : 25,
-       description : 'Descripcion del Motorola V3'
+       description : 'Descripcion del Sony Ericson T290'
     },
 
     {
@@ -25,7 +25,7 @@ const products =[
        category: 'tablet',
         img:'https://i.blogs.es/78f434/ipad-air-2020-analisis-applesfera--29/1366_2000.jpg',
        stock : 25,
-       description : 'Descripcion del Motorola V3'
+       description : 'Descripcion del Ipad 2022 Air'
     },
 
 
